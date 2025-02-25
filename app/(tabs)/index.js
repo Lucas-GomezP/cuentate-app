@@ -1,9 +1,168 @@
-import { Text, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
+import ScreenLayout from "../ui/screen-layout";
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <ScreenLayout>
+      <Text className="text-white">Home</Text>
+      <ScrollView>
+        <Text className="text-white">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, odio leo
+          dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor. Lorem ipsum dolor sit amet consectetur adipiscing elit, odio
+          leo dapibus posuere sapien vivamus class inceptos, mattis interdum
+          habitant sociosqu praesent tincidunt. Porta tincidunt primis rutrum
+          neque potenti cursus ad aliquam lectus sed arcu laoreet aliquet
+          fermentum dictum, libero dui sem odio vehicula orci senectus himenaeos
+          lacinia facilisi mus ultricies lobortis feugiat. Suscipit velit
+          posuere condimentum cras risus pretium tellus aliquet libero interdum,
+          est ad imperdiet massa ac faucibus penatibus iaculis consequat
+          pellentesque, purus blandit cursus class a luctus fusce lobortis
+          tortor.
+        </Text>
+      </ScrollView>
+    </ScreenLayout>
   );
 }
