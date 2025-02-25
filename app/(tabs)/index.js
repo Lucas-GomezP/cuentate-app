@@ -1,11 +1,16 @@
 import { ScrollView, Text, View } from "react-native";
 import ScreenLayout from "../ui/screen-layout";
+import { Link, Stack } from "expo-router";
 
 export default function Home() {
   return (
     <ScreenLayout>
+      <Stack.Screen name="index" options={{ title: "Inicio" }} />
+      <Link href="/config" className="text-white">
+        Configuración link
+      </Link>
       <Text className="text-white">Home</Text>
-      <ScrollView>
+      <ScrollView className="">
         <Text className="text-white">
           Lorem ipsum dolor sit amet consectetur adipiscing elit, odio leo
           dapibus posuere sapien vivamus class inceptos, mattis interdum

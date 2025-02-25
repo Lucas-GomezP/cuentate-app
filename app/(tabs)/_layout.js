@@ -1,6 +1,10 @@
 import { Tabs } from "expo-router";
+import { HomeIcon, MenuIcon, SettingsIcon } from "../components/icons";
+import { Pressable } from "react-native";
+import useUiContext from "../hooks/useUiContext";
 
 export default function TabsLayout() {
+  const { openMenu, setOpenMenu } = useUiContext();
   return (
     <Tabs
       screenOptions={{
@@ -13,13 +17,20 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: "Inicio",
+          headerLeft: () => (
+            <Pressable onPress={() => setOpenMenu(!openMenu)}>
+              <MenuIcon color="white" />
+            </Pressable>
+          ),
+          tabBarIcon: ({ color }) => <HomeIcon color={color} />,
         }}
       />
       <Tabs.Screen
-        name="config"
+        name="settings"
         options={{
           title: "Configuración",
+          tabBarIcon: ({ color }) => <SettingsIcon color={color} />,
         }}
       />
       <Tabs.Screen
