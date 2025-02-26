@@ -1,26 +1,36 @@
-import { Pressable, Text, View } from "react-native";
+import { Pressable, View } from "react-native";
 import { CloseIcon, PlusIcon } from "../components/icons";
 import useUiContext from "../hooks/useUiContext";
-import { Link } from "expo-router";
+import AnimatedAddButtonOptions from "../components/animated-add-button-options";
 
 export default function AddTransactionButton() {
   const { openTransactionMenu, setOpenTransactionMenu } = useUiContext();
+
+  const addButtonOptions = [
+    {
+      id: 1,
+      text: "menu principal",
+      href: "/",
+    },
+    {
+      id: 2,
+      text: "configuracion",
+      href: "/settings",
+    },
+  ];
   return (
     <>
       {openTransactionMenu && (
-        <Link
-          asChild
-          href={"/"}
-          className="bg-green-200 border-green-700 border-2 absolute bottom-20 right-2 p-1 rounded-lg"
-        >
-          <Pressable
-            onPress={() => {
-              setOpenTransactionMenu(false);
-            }}
-          >
-            <Text className="text-lg font-semibold text-green-700">hola</Text>
-          </Pressable>
-        </Link>
+        <View className="absolute bottom-20 right-2 flex flex-col-reverse gap-2">
+          {addButtonOptions.map((option, index) => (
+            <AnimatedAddButtonOptions
+              key={option.id}
+              option={option}
+              index={index}
+              action={() => setOpenTransactionMenu(false)}
+            />
+          ))}
+        </View>
       )}
       <View
         className={`absolute bottom-2 right-2 rounded-full p-1 border-2 ${openTransactionMenu ? "border-red-700 bg-red-200" : "bg-green-200 border-green-700"}`}
